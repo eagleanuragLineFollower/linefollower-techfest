@@ -12,4 +12,4 @@ For testing purposes, it can be compiled directly to .exe and the algorithm may 
 
 ![Cerificate Linefollower](https://raw.githubusercontent.com/s-ankur/linefollower-techfest/master/techfest.png)
 
-![Watch The Aftermovie](https://www.youtube.com/watch?v=2z3CEBv8PLI)
+[Watch The Aftermovie](https://www.youtube.com/watch?v=2z3CEBv8PLI)
