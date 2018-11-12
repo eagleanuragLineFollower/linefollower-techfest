@@ -99,7 +99,7 @@ void Graph::backtrack()
     }
 OUTSIDE_WHILE:
     current_node = path[path_n++];
-    std::reverse_array(path_trace,path_trace+ path_trace_n);
+    std::reverse(path_trace,path_trace+ path_trace_n);
 }
 
 void Graph::create_node()
