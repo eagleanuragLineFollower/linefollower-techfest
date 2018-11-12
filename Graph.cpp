@@ -5,17 +5,6 @@
 
 void query();
 
-void reverse_array(Direction* arr, int n)
-{
-    for (int i = 0; i < n / 2; i++)
-    {
-        Direction tmp;
-        tmp = arr[i];
-        arr[i] = arr[n - 1 - i];
-        arr[n - i - 1] = tmp;
-    }
-}
-
 void Graph::reset()
 {
     bot.disha = North;
@@ -110,7 +99,7 @@ void Graph::backtrack()
     }
 OUTSIDE_WHILE:
     current_node = path[path_n++];
-    reverse_array(path_trace, path_trace_n);
+    std::reverse_array(path_trace,path_trace+ path_trace_n);
 }
 
 void Graph::create_node()
